@@ -84,7 +84,7 @@ a {
 
 .section-half-right {
     width: 320px;
-    padding: 10px 24px;
+    padding: 10px 0 10px 48px;
     float: left;
 }
 
