@@ -96,6 +96,10 @@ a {
     vertical-align: top;
 }
 
+.section-content img {
+    width: 750px;
+}
+
 .section-half-header {
     font-size: 2em;
     margin: 0.67em 0;
@@ -176,6 +180,10 @@ a {
         text-align: left;
     }
 
+    .section-content img {
+        width: 320px;
+    }
+
     .section-half-left {
         display: block;
         float: none;
@@ -225,6 +233,10 @@ a {
         float: none;
     }
 
+    .section-content img {
+        width: 320px;
+    }
+
     .section-half-left {
         display: block;
         float: none;
@@ -259,6 +271,10 @@ a {
     }
 
     .section-half-image img {
+        width: 320px;
+    }
+
+    .section-content img {
         width: 320px;
     }
 
