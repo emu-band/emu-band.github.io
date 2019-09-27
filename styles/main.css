@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Display&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(43, 43, 43);
+    color: rgb(169, 183, 198);
+    margin: 0;
+}
+
+/** HEADERS **/
+
+.header {
+    text-align: center;
+    height: 100px;
+}
+
+.header-title {
+    font-family: 'Big Shoulders Display', cursive;
+    padding-top: 20px;
+    font-size: 60px;
+    color: rgb(43, 43, 43);
+    -webkit-text-stroke: 1px rgb(234, 158, 205);
+    text-shadow: 1px 2px 0 rgb(234, 158, 205), 0.75px 1.75px 0 rgb(234, 158, 205),
+    0.5px 1.5px 0 rgb(234, 158, 205), 0.25px 1.25px 0 rgb(234, 158, 205),
+    0px 1px 0 rgb(234, 158, 205), -0.25px 0.75px 0 rgb(234, 158, 205),
+    -0.5px 0.5px 0 rgb(234, 158, 205), 0.75px 0px 0 rgb(234, 158, 205),
+    1px 0.5px 0 rgb(234, 158, 205);
+    /*text-shadow: 1px 3px 0 rgb(234, 158, 205);*/
+}
+
+.header-subtitle {
+    font-family: 'Big Shoulders Display', cursive;
+    width: 200px;
+    margin: auto;
+}
