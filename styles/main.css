@@ -40,10 +40,12 @@ a {
     display: inline-block;
     /*margin: 0 50px 78px;*/
     margin: 0 50px;
+    color: rgb(169, 183, 198);
 }
 
 .nav-item.active {
     border-bottom: 1px dashed rgb(169, 183, 198);
+    color: white;
 }
 
 .header-title-container {
@@ -84,6 +86,14 @@ a {
     width: 320px;
     padding: 10px 24px;
     float: left;
+}
+
+.section-header {
+    font-size: 2em;
+    margin: 0.67em 0;
+    font-weight: bold;
+    overflow: hidden;
+    vertical-align: top;
 }
 
 .section-half-header {
