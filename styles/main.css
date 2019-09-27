@@ -8,6 +8,7 @@ body {
     background-color: rgb(43, 43, 43);
     color: rgb(169, 183, 198);
     margin: 0;
+    min-width: 320px;
 }
 
 a {
@@ -143,6 +144,10 @@ a {
         width: 280px;
     }
 
+    .section-half-image {
+        width: 320px;
+    }
+
     .section-half-image img {
         width: 320px;
     }
@@ -189,6 +194,10 @@ a {
         width: 280px;
     }
 
+    .section-half-image {
+        width: 320px;
+    }
+
     .section-half-image img {
         width: 320px;
     }
@@ -232,6 +241,10 @@ a {
 
     .section-half-right {
         width: 280px;
+    }
+
+    .section-half-image {
+        width: 320px;
     }
 
     .section-half-image img {
