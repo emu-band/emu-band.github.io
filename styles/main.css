@@ -20,6 +20,7 @@ a {
 .header {
     text-align: center;
     user-select: none;
+    height: 188px;
     font-size: 22px;
     margin-top: 20px;
     margin-bottom: 40px;
@@ -30,11 +31,14 @@ a {
     display: inline-block;
     margin: 0 50px;
     overflow: hidden;
+    vertical-align: top;
+    margin-top: 75px;
 }
 
 .nav-item {
     display: inline-block;
-    margin: 0 50px 78px;
+    /*margin: 0 50px 78px;*/
+    margin: 0 50px;
 }
 
 .nav-item.active {
@@ -62,7 +66,7 @@ a {
 /** MAIN **/
 
 .main {
-    width: 800px;
+    width: 768px;
     margin: auto;
 }
 
@@ -76,8 +80,8 @@ a {
 
 .section-half-right {
     width: 320px;
-    padding: 10px 40px;
-    float: right;
+    padding: 10px 24px;
+    float: left;
 }
 
 .section-half-header {
@@ -97,4 +101,185 @@ a {
     width: 400px;
     padding: 0;
     margin: 0;
+}
+
+/** FOOTER **/
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding-left: 5px;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.footer .fa {
+    color: rgb(169, 183, 198);
+    padding: 10px;
+    font-size: 22px;
+}
+
+.footer .fa:hover {
+    color: white;
+}
+
+/** SCREENS **/
+
+@media (max-width: 374px) {
+    .header-title-container {
+        float: right;
+        margin-right: 40px;
+    }
+
+    .main {
+        width: 320px;
+    }
+
+    .section-half-left {
+        width: 320px;
+    }
+
+    .section-half-right {
+        width: 280px;
+    }
+
+    .section-half-image img {
+        width: 320px;
+    }
+
+    .nav {
+        margin: 10px 0 0 8px;
+        float: left;
+        display: block;
+    }
+
+    .nav-item {
+        margin: 10px;
+        display: block;
+        float: none;
+        text-align: left;
+    }
+
+    .section-half-left {
+        display: block;
+        float: none;
+    }
+
+    .section-half-right {
+        display: block;
+        float: none;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 549px) {
+    .header-title-container {
+        float: right;
+        margin-right: 40px;
+    }
+
+    .main {
+        width: 320px;
+    }
+
+    .section-half-left {
+        width: 320px;
+    }
+
+    .section-half-right {
+        width: 280px;
+    }
+
+    .section-half-image img {
+        width: 320px;
+    }
+
+    .nav {
+        margin: 50px 0 0 8px;
+        float: left;
+        display: block;
+    }
+
+    .nav-item {
+        margin: 10px;
+        display: block;
+        float: none;
+    }
+
+    .section-half-left {
+        display: block;
+        float: none;
+    }
+
+    .section-half-right {
+        display: block;
+        float: none;
+    }
+}
+
+@media (min-width: 550px) and (max-width: 767px) {
+    .header-title-container {
+        float: right;
+        margin-right: 40px;
+    }
+
+    .main {
+        width: 320px;
+    }
+
+    .section-half-left {
+        width: 320px;
+    }
+
+    .section-half-right {
+        width: 280px;
+    }
+
+    .section-half-image img {
+        width: 320px;
+    }
+
+    .nav {
+        margin: 50px;
+        float: left;
+        display: block;
+    }
+
+    .nav-item {
+        margin: 10px;
+        display: block;
+    }
+
+    .section-half-left {
+        display: block;
+        float: none;
+    }
+
+    .section-half-right {
+        display: block;
+        float: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 949px) {
+    .header-title-container {
+        float: right;
+        margin-right: 40px;
+    }
+
+    .nav {
+        margin: 50px;
+        float: left;
+        display: block;
+    }
+
+    .nav-item {
+        margin: 10px;
+        display: block;
+
+    }
+}
+
+@media (min-width: 950px) {
+    body {
+    }
 }
