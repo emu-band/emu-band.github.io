@@ -131,7 +131,7 @@ a {
     bottom: 0;
     left: 0;
     padding-left: 5px;
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 .footer .fa {
@@ -142,6 +142,38 @@ a {
 
 .footer .fa:hover {
     color: white;
+}
+
+/** LISTS **/
+
+list {
+
+}
+
+.list-item {
+    list-style-type: none;
+    border-top: 1px dashed white;
+    padding-top: 20px;
+}
+
+.list-item-header {
+    background-color: rgb(55, 55, 55);
+    padding: 10px 10px 12px;
+    margin: 0;
+    overflow: hidden;
+    display: inline;
+}
+
+.list-item-header-icon {
+    position: relative;
+    top: 4px;
+    padding-right: 5px;
+    margin: 0;
+}
+
+.list-item-content {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 /** SCREENS **/
