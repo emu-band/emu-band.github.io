@@ -94,11 +94,13 @@ a {
 }
 
 .section-header {
-    font-size: 2em;
+    font-size: 4em;
+    text-transform: lowercase;
     margin: 0.67em 0;
     font-weight: bold;
     overflow: hidden;
     vertical-align: top;
+    font-family: 'Big Shoulders Display', cursive;
 }
 
 .section-content img {
@@ -146,8 +148,9 @@ a {
 
 /** LISTS **/
 
-list {
-
+.list {
+    margin: 0;
+    padding: 0;
 }
 
 .list-item {
@@ -160,8 +163,10 @@ list {
     background-color: rgb(55, 55, 55);
     padding: 10px 10px 12px;
     margin: 0;
+    margin-right: -4px;
+    margin-bottom: -5px;
     overflow: hidden;
-    display: inline;
+    display: inline-block;
 }
 
 .list-item-header-icon {
