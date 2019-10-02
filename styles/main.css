@@ -4,46 +4,46 @@
 /** COMMONERS **/
 
 body {
-    font-family: 'Open Sans', sans-serif;
     background-color: rgb(43, 43, 43);
     color: rgb(169, 183, 198);
+    font-family: 'Open Sans', sans-serif;
     margin: 0;
     min-width: 320px;
 }
 
 a {
-    text-decoration: none;
     color: inherit;
+    text-decoration: none;
 }
 
 .main a {
-    text-decoration: none;
     color: white;
+    text-decoration: none;
 }
 
 /** HEADERS **/
 
 .header {
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 22px;
+    height: 188px;
+    margin-bottom: 80px;
+    margin-top: 20px;
     text-align: center;
     user-select: none;
-    height: 188px;
-    font-size: 22px;
-    margin-top: 20px;
-    margin-bottom: 80px;
-    font-family: 'Big Shoulders Display', cursive;
 }
 
 .nav {
     display: inline-block;
+    margin: 75px 30px 0;
     overflow: hidden;
     vertical-align: top;
-    margin: 75px 30px 0;
 }
 
 .nav-item {
+    color: rgb(169, 183, 198);
     display: inline-block;
     margin: 0 30px;
-    color: rgb(169, 183, 198);
 }
 
 .nav-item.active {
@@ -56,11 +56,11 @@ a {
 }
 
 .header-title {
+    color: rgb(43, 43, 43);
     font-size: 150px;
     margin-bottom: -20px;
-    color: rgb(43, 43, 43);
-    -webkit-text-stroke: 2px rgb(234, 158, 205);
     text-shadow: 2px 3px 0 rgb(234, 158, 205);
+    -webkit-text-stroke: 2px rgb(234, 158, 205);
     /*text-shadow: 1px 3px 0 rgb(234, 158, 205);*/
 }
 
@@ -72,8 +72,8 @@ a {
 /** MAIN **/
 
 .main {
-    width: 768px;
     margin: auto;
+    width: 768px;
 }
 
 .full-screen {
@@ -101,24 +101,24 @@ a {
 }
 
 .section-half-left {
-    width: 400px;
     float: left;
+    width: 400px;
 }
 
 .section-half-right {
-    width: 320px;
-    padding: 10px 0 10px 48px;
     float: left;
+    padding: 10px 0 10px 48px;
+    width: 320px;
 }
 
 .section-header {
-    font-size: 4em;
-    text-transform: lowercase;
-    margin: 0.67em 0;
-    font-weight: bold;
-    overflow: hidden;
-    vertical-align: top;
     font-family: 'Big Shoulders Display', cursive;
+    font-size: 4em;
+    font-weight: bold;
+    margin: 0.67em 0;
+    overflow: hidden;
+    text-transform: lowercase;
+    vertical-align: top;
 }
 
 .section-content img {
@@ -127,8 +127,8 @@ a {
 
 .section-half-header {
     font-size: 2em;
-    margin: 0.67em 0;
     font-weight: bold;
+    margin: 0.67em 0;
     overflow: hidden;
     vertical-align: top;
 }
@@ -139,25 +139,25 @@ a {
 /*}*/
 
 .section-half-image img {
-    width: 400px;
-    padding: 0;
     margin: 0;
+    padding: 0;
+    width: 400px;
 }
 
 /** FOOTER **/
 
 .footer {
-    position: fixed;
+    background-color: rgba(0, 0, 0, 0.7);
     bottom: 0;
     left: 0;
     padding-left: 5px;
-    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
 }
 
 .footer .fa {
     color: rgb(169, 183, 198);
-    padding: 10px;
     font-size: 22px;
+    padding: 10px;
 }
 
 .footer .fa:hover {
@@ -172,37 +172,37 @@ a {
 }
 
 .list-item {
-    list-style-type: none;
     border-top: 1px dashed white;
+    list-style-type: none;
     padding-top: 20px;
 }
 
 .list-item-subheader {
     background-color: rgb(55, 55, 55);
-    padding: 10px 10px 12px;
-    margin: 0;
-    margin-right: -4px;
-    margin-bottom: -5px;
-    overflow: hidden;
     display: inline-block;
+    margin: 0;
+    margin-bottom: -5px;
+    margin-right: -4px;
+    overflow: hidden;
+    padding: 10px 10px 12px;
 }
 
 .list-item-header {
-    font-size: 3em;
     font-family: 'Big Shoulders Display', cursive;
+    font-size: 3em;
     padding-bottom: 15px;
 }
 
 .list-item-header-icon {
+    margin: 0;
+    padding-right: 5px;
     position: relative;
     top: 4px;
-    padding-right: 5px;
-    margin: 0;
 }
 
 .list-item-content {
-    margin-top: 20px;
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 /** SCREENS **/
@@ -222,8 +222,8 @@ a {
     }
 
     .section-half-right {
-        width: 280px;
         padding: 10px 24px;
+        width: 280px;
     }
 
     .section-half-image {
@@ -235,15 +235,15 @@ a {
     }
 
     .nav {
-        margin: 10px 0 0 8px;
-        float: left;
         display: block;
+        float: left;
+        margin: 10px 0 0 8px;
     }
 
     .nav-item {
-        margin: 10px;
         display: block;
         float: none;
+        margin: 10px;
         text-align: left;
     }
 
@@ -266,8 +266,8 @@ a {
     }
 
     .full-screen .section-half-left {
-        width: 75vw;
         margin: auto;
+        width: 75vw;
     }
 
     .full-screen .section-half-left img {
@@ -298,8 +298,8 @@ a {
     }
 
     .section-half-right {
-        width: 280px;
         padding: 10px 24px;
+        width: 280px;
     }
 
     .section-half-image {
@@ -311,15 +311,15 @@ a {
     }
 
     .nav {
-        margin: 50px 0 0 8px;
-        float: left;
         display: block;
+        float: left;
+        margin: 50px 0 0 8px;
     }
 
     .nav-item {
-        margin: 10px;
         display: block;
         float: none;
+        margin: 10px;
     }
 
     .section-content img {
@@ -341,8 +341,8 @@ a {
     }
 
     .full-screen .section-half-left {
-        width: 75vw;
         margin: auto;
+        width: 75vw;
     }
 
     .full-screen .section-half-left img {
@@ -373,8 +373,8 @@ a {
     }
 
     .section-half-right {
-        width: 280px;
         padding: 10px 24px;
+        width: 280px;
     }
 
     .section-half-image {
@@ -390,14 +390,14 @@ a {
     }
 
     .nav {
-        margin: 50px;
-        float: left;
         display: block;
+        float: left;
+        margin: 50px;
     }
 
     .nav-item {
-        margin: 10px;
         display: block;
+        margin: 10px;
     }
 
     .section-half-left {
@@ -415,8 +415,8 @@ a {
     }
 
     .full-screen .section-half-left {
-        width: 75vw;
         margin: auto;
+        width: 75vw;
     }
 
     .full-screen .section-half-left img {
@@ -439,14 +439,14 @@ a {
     }
 
     .nav {
-        margin: 50px;
-        float: left;
         display: block;
+        float: left;
+        margin: 50px;
     }
 
     .nav-item {
-        margin: 10px;
         display: block;
+        margin: 10px;
 
     }
 }
