@@ -128,11 +128,21 @@ a {
     width: 750px;
 }
 
+/*.section-half-header {*/
+/*    font-size: 2em;*/
+/*    font-weight: bold;*/
+/*    margin: 0.67em 0;*/
+/*    overflow: hidden;*/
+/*    vertical-align: top;*/
+/*}*/
+
 .section-half-header {
-    font-size: 2em;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 4em;
     font-weight: bold;
     margin: 0.67em 0;
     overflow: hidden;
+    text-transform: lowercase;
     vertical-align: top;
 }
 
@@ -154,6 +164,7 @@ a {
     bottom: 0;
     left: 0;
     padding-left: 5px;
+    padding-right: 5px;
     position: fixed;
 }
 
