@@ -72,7 +72,9 @@ a {
 /** MAIN **/
 
 .main {
-    margin: auto;
+    height: auto;
+    margin: auto auto 100px;
+    overflow: hidden;
     width: 768px;
 }
 
@@ -99,6 +101,7 @@ a {
 .section {
     margin-bottom: 50px;
 }
+
 
 .section-half-left {
     float: left;
