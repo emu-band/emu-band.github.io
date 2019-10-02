@@ -29,22 +29,20 @@ a {
     height: 188px;
     font-size: 22px;
     margin-top: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
     font-family: 'Big Shoulders Display', cursive;
 }
 
 .nav {
     display: inline-block;
-    margin: 0 50px;
     overflow: hidden;
     vertical-align: top;
-    margin-top: 75px;
+    margin: 75px 30px 0;
 }
 
 .nav-item {
     display: inline-block;
-    /*margin: 0 50px 78px;*/
-    margin: 0 50px;
+    margin: 0 30px;
     color: rgb(169, 183, 198);
 }
 
@@ -76,6 +74,26 @@ a {
 .main {
     width: 768px;
     margin: auto;
+}
+
+.full-screen {
+    width: 90%;
+}
+
+.full-screen .section-half-left {
+    width: 40%;
+}
+
+.full-screen .section-half-left img {
+    width: 100%;
+}
+
+.full-screen .section-half-right {
+    width: 53%;
+}
+
+.full-screen .section-half-header {
+    font-size: 5vw;
 }
 
 .section {
@@ -115,10 +133,10 @@ a {
     vertical-align: top;
 }
 
-.section-half-image {
-    display: inline-block;
-    width: 400px;
-}
+/*.section-half-image {*/
+/*    display: inline-block;*/
+/*    width: 400px;*/
+/*}*/
 
 .section-half-image img {
     width: 400px;
@@ -242,6 +260,27 @@ a {
         display: block;
         float: none;
     }
+
+    .full-screen {
+        width: 90%;
+    }
+
+    .full-screen .section-half-left {
+        width: 75vw;
+        margin: auto;
+    }
+
+    .full-screen .section-half-left img {
+        width: 75vw;
+    }
+
+    .full-screen .section-half-right {
+        width: inherit;
+    }
+
+    .full-screen .section-half-header {
+        font-size: 5vw;
+    }
 }
 
 @media (min-width: 375px) and (max-width: 549px) {
@@ -296,6 +335,27 @@ a {
         display: block;
         float: none;
     }
+
+    .full-screen {
+        width: 90%;
+    }
+
+    .full-screen .section-half-left {
+        width: 75vw;
+        margin: auto;
+    }
+
+    .full-screen .section-half-left img {
+        width: 75vw;
+    }
+
+    .full-screen .section-half-right {
+        width: inherit;
+    }
+
+    .full-screen .section-half-header {
+        font-size: 5vw;
+    }
 }
 
 @media (min-width: 550px) and (max-width: 767px) {
@@ -348,6 +408,27 @@ a {
     .section-half-right {
         display: block;
         float: none;
+    }
+
+    .full-screen {
+        width: 90%;
+    }
+
+    .full-screen .section-half-left {
+        width: 75vw;
+        margin: auto;
+    }
+
+    .full-screen .section-half-left img {
+        width: 75vw;
+    }
+
+    .full-screen .section-half-right {
+        width: inherit;
+    }
+
+    .full-screen .section-half-header {
+        font-size: 5vw;
     }
 }
 
